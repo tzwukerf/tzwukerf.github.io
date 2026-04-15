@@ -1,0 +1,59 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+
+/* Main content */
+#projects {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+    justify-content: flex-start;
+    padding-top: 80px;
+}
+
+/* Title */
+.big-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 900px; /* keeps it visually centered */
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#blog {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers horizontally */
+    justify-content: flex-start;
+    padding-top: 80px;
+}
+
+.blog-post {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 900px; /* keeps it visually centered */
+}
