@@ -19,7 +19,7 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 60px; /* collapsed width */
+  width: 100px; /* collapsed width */
   background-color: #FFFAFA;
   color: black;
   overflow: hidden;
@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar:hover {
-  width: 200px; /* expanded width */
+  width: 300px; /* expanded width */
 }
 
 .sidebar-header {
@@ -60,7 +60,6 @@ body {
   overflow: visible;
 }
 
-/* ✅ FIXED: hover only works when sidebar is hovered */
 .sidebar:hover .sidebar-btn:hover,
 .sidebar:hover .sidebar-btn.active {
   background-color: #989fab;
@@ -119,7 +118,7 @@ button.active .full-text {
 
 /* Main content */
 .main-content {
-  margin-left: 60px;
+  margin-left: 100px;
   padding: 2rem;
   flex: 1;
   transition: margin-left 0.3s;
@@ -151,13 +150,4 @@ button.active .full-text {
 
 .btn:hover {
   background-color: #0056b3;
-}
-
-/* Blog */
-.blog-post {
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  margin-bottom: 1.5rem;
 }
